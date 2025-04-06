@@ -3,9 +3,10 @@ def is_positive(number):
     if number > 0:
         return True
     else:
-    return False
+        return False
 
 # Testing
-test_number = -5
-output = is_positive(test_number)
+number = -5
+output = is_positive(number)
 print("Is the number positive?", output)
+#ndnia
